@@ -1,6 +1,13 @@
-#include "PrintHello.hpp"
+#include <iostream>
+#include <string>
+
+#include "gra.hpp"
 
 int main()
 {
-    printHello();
+	Gra *ciekawagra = new Gra();
+	ciekawagra->graj();
+	delete ciekawagra;
+
+return(0);
 }
